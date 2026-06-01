@@ -7,7 +7,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-between px-55 py-8 items-center">
+    <footer className="flex flex-col md:flex-row  justify-between px-5 md:px-55 py-8 items-center">
       <div className="flex flex-col text-gray-500">
         <span>MERN &copy; 2026</span>
         <span>

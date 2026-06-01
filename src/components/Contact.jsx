@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="rounded-xl bg-purple-200/75 px-50 flex flex-col gap-10 py-10">
+    <section className="rounded-xl bg-purple-200/75 px-5 md:px-50 flex flex-col gap-10 py-10">
       <div>
         <h2 className="text-4xl font-medium">Get in touch</h2>
         <p className="text-xl mt-2">

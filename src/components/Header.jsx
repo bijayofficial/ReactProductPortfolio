@@ -7,7 +7,7 @@ const Header = () => {
     ${isActive ? "underline underline-offset-5 text-purple-600" : ""}`;
   return (
     <header className="font-inter ">
-      <nav className="flex justify-between items-center px-55 py-8">
+      <nav className="flex justify-between items-center px-5 py-2 md:px-55 md:py-8">
         <div className="flex gap-3 items-center justify-center">
           {/* Link */}
           <NavLink to="/">
